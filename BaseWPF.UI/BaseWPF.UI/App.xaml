@@ -1,0 +1,14 @@
+﻿<Application x:Class="BaseWPF.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/ControlStyle;component/Styles/Bootstrap.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/ControlStyle;component/PathGeometries/Glyphicons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <!--<SampleData:SampleDataSource x:Key="SampleDataSource" d:IsDataSource="True"/>-->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
